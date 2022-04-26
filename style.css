@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.content-wrapper{
+    width: 100%;
+    height: 112vh;
+    background: linear-gradient(rgba(54, 41, 28, 0.753),#5a5240), url(images/xwoner.jpg.pagespeed.ic.jpg);
+    background-position: center;
+    background-size: cover;
+    opacity:  0.5;    
+}
+
+.content-wrapper >img{
+    width: 100%;
+}
+.text-wrapper{
+    width: 100%;   
+}
+.text-wrapper > h1{
+    text-align: center;
+    color: rgb(243, 208, 8);
+    font-weight: 800;
+    padding-top: 20rem;
+    padding-right: 20rem;
+    font-family: 'Fjalla One', sans-serif;
+}
+.text-wrapper > p{
+    color: white;
+    padding: 20px 350px;
+    font-size: large;
+    margin-right: 10px;
+    font-family: 'Fjalla One', sans-serif;
+    line-height: 2rem;
+}
+
+
+/**info**/
+
+#info{
+    display: flex;
+    padding: 80px 10px;
+    padding-left: 6rem;
+    gap: 2rem;
+    text-align: center; 
+}
+.reservation{
+    padding-left: 5rem;
+    padding-bottom: 10px;
+}
+.reservation > h1{
+    font-weight: 800rem;
+    font-family: 'Fjalla One', sans-serif;
+    
+}
+
+.reservation input[type="text"] {
+    padding: 15px;
+    padding-right: 10rem;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    height: 15px;
+    border-radius: 10px 10px 10px 10px;
+}
+.reservation input[type="message"] {
+    padding: 40px;
+    padding-right: 10rem;
+    width: 50%;
+    margin-top: 20px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.reservation-btn{
+    background-color: rgb(255, 196, 0);
+    color:  black;
+    padding: 10px 10px;
+    padding-right: 4rem;
+    margin-top: 20px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.reservation-btn > h1{
+    font-weight: 800;
+    text-align: center;
+    padding-left: 5rem;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Fjalla One', sans-serif;
+}
+.reservation input[type="date_time"] {
+   padding: 5px;
+   width: 100px;
+    margin-top: 2rem;
+    border-radius: 10px 10px 10px 10px;    
+}
+
+.booking-image img{
+    height: 25rem;
+    padding-left: 15rem;
+}
